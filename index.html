@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khám Phá Việt Nam</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
         <h1>Khám Phá Việt Nam</h1>
@@ -23,43 +21,60 @@
     </nav>
 
     <main>
-        <h2>Chào mừng đến với Việt Nam</h2>
-        <p>Việt Nam là một quốc gia hình chữ S nằm ở Đông Nam Á, trải dài hơn 1.600 km từ Bắc xuống Nam. Đất nước này
-            nổi tiếng với phong cảnh thiên nhiên đa dạng, từ núi rừng hùng vĩ ở miền Bắc đến đồng bằng sông Cửu Long trù
-            phú ở miền Nam, cùng hàng nghìn km bờ biển xanh trong.</p>
-        <p>Với hơn 54 dân tộc anh em cùng sinh sống, Việt Nam sở hữu nền văn hóa phong phú và đa dạng bậc nhất khu vực.
-            Mỗi vùng miền lại có phong tục, ẩm thực và lễ hội đặc trưng riêng, tạo nên một bức tranh văn hóa đầy màu
-            sắc.</p>
+        <div class="hero">
+            <h2>Chào mừng đến với Việt Nam 🇻🇳</h2>
+            <p>Việt Nam trải dài hơn 1.600 km từ Bắc xuống Nam với phong cảnh đa dạng, văn hóa phong phú của 54 dân tộc và ẩm thực nổi tiếng toàn thế giới.</p>
+        </div>
 
-        <h2>Tại sao nên đến Việt Nam?</h2>
-        <p>Việt Nam liên tục được bình chọn là một trong những điểm đến hấp dẫn nhất châu Á. Từ những bãi biển hoang sơ
-            chưa bị khai thác, những khu rừng nguyên sinh với hệ sinh thái độc đáo, đến các thành phố sôi động không bao
-            giờ ngủ — Việt Nam đáp ứng mọi nhu cầu của du khách.</p>
-        <p>Ẩm thực Việt Nam được cả thế giới công nhận. Phở Hà Nội, Bún Bò Huế, Mì Quảng, Bánh Xèo hay Cơm Tấm Sài Gòn
-            đều là những trải nghiệm vị giác không thể quên. Chi phí du lịch tại Việt Nam cũng rất hợp lý so với các
-            quốc gia trong khu vực.</p>
-        <div class="tip">💡 Mẹo: Hãy thử ăn sáng tại các quán vỉa hè địa phương — đó là nơi bạn sẽ tìm thấy những món
-            ngon nhất và trải nghiệm văn hóa thực sự của người Việt.</div>
+        <p class="section-title">Tại sao nên đến Việt Nam?</p>
+        <div class="cards">
+            <div class="card">
+                <div class="icon">🏖</div>
+                <h3>Biển đẹp</h3>
+                <p>Hàng nghìn km bờ biển với bãi cát trắng, nước xanh trong.</p>
+                <span class="tag">Tự nhiên</span>
+            </div>
+            <div class="card">
+                <div class="icon">🍜</div>
+                <h3>Ẩm thực</h3>
+                <p>Phở, Bún Bò, Mì Quảng, Bánh Xèo... được cả thế giới công nhận.</p>
+                <span class="tag">Văn hóa</span>
+            </div>
+            <div class="card">
+                <div class="icon">🏛</div>
+                <h3>Di sản</h3>
+                <p>8 Di sản Thế giới UNESCO trải dài khắp đất nước.</p>
+                <span class="tag">Lịch sử</span>
+            </div>
+            <div class="card">
+                <div class="icon">💰</div>
+                <h3>Chi phí thấp</h3>
+                <p>Du lịch chất lượng cao với chi phí hợp lý bậc nhất châu Á.</p>
+                <span class="tag">Tiết kiệm</span>
+            </div>
+        </div>
 
-        <h2>Thời điểm lý tưởng</h2>
-        <p>Thời điểm tốt nhất để du lịch Việt Nam là từ tháng 11 đến tháng 4, khi thời tiết mát mẻ và ít mưa trên cả
-            nước. Tuy nhiên do Việt Nam trải dài theo chiều Bắc-Nam nên thời tiết mỗi vùng rất khác nhau.</p>
+        <p class="section-title">Thời điểm lý tưởng theo vùng</p>
+        <div class="info-grid">
+            <div class="info-box">
+                <h3>🌿 Miền Bắc</h3>
+                <p>Tháng 10 – 4 mát mẻ, khô ráo. Tháng 12–2 lạnh, Sapa có tuyết. Tránh tháng 6–9.</p>
+            </div>
+            <div class="info-box">
+                <h3>☀️ Miền Trung</h3>
+                <p>Tháng 2 – 8 đẹp nhất. Tháng 9–11 có bão và mưa lớn, cần lưu ý.</p>
+            </div>
+            <div class="info-box">
+                <h3>🌴 Miền Nam</h3>
+                <p>Tháng 11 – 4 mùa khô lý tưởng. Tháng 5–10 mưa chiều nhưng vẫn ấm.</p>
+            </div>
+        </div>
 
-        <h3>Miền Bắc (Hà Nội, Sapa, Hạ Long)</h3>
-        <p>Tháng 10 – 4 là mùa khô, mát mẻ dễ chịu. Tháng 12 – 2 có thể lạnh, đặc biệt ở Sapa có thể có tuyết. Tránh
-            tháng 6 – 9 vì mưa nhiều và nóng ẩm.</p>
-
-        <h3>Miền Trung (Huế, Đà Nẵng, Hội An)</h3>
-        <p>Tháng 2 – 8 là thời điểm đẹp nhất. Tháng 9 – 11 thường có bão và mưa lớn nên cần lưu ý khi lên kế hoạch.</p>
-
-        <h3>Miền Nam (TP.HCM, Phú Quốc, Mekong)</h3>
-        <p>Tháng 11 – 4 là mùa khô, lý tưởng nhất. Tháng 5 – 10 là mùa mưa nhưng nhiệt độ vẫn ấm áp, thích hợp du lịch
-            nếu bạn không ngại mưa buổi chiều.</p>
+        <div class="tip">💡 Mẹo: Ăn sáng tại quán vỉa hè địa phương — ngon nhất và trải nghiệm văn hóa thực sự!</div>
     </main>
 
     <footer>
         <p>&copy; 2024 Khám Phá Việt Nam. Thiết kế với ❤ dành cho những người yêu du lịch.</p>
     </footer>
 </body>
-
 </html>
