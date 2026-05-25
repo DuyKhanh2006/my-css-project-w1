@@ -1,0 +1,129 @@
+/* =============================================
+   Michigan CSS Course - Homework 1
+   Single stylesheet for all three HTML pages
+   ============================================= */
+
+/* --- body: font-family + font-size --- */
+body {
+    font-family: 'Trebuchet MS', Verdana, sans-serif;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7f4;
+    color: #1c3a2e;
+}
+
+/* --- header: background-color --- */
+header {
+    background-color: #0b4f3a;
+    padding: 32px 40px 26px;
+    border-bottom: 4px solid #f4a828;
+}
+
+/* --- nav: background-color --- */
+nav {
+    background-color: #136f50;
+    padding: 0 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- li: display + width --- */
+li {
+    display: inline;
+    width: auto;
+}
+
+nav li {
+    display: inline-block;
+    width: auto;
+}
+
+nav a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 13px 20px;
+    letter-spacing: 0.5px;
+}
+
+nav a:hover {
+    background-color: #0b4f3a;
+    text-decoration: underline;
+}
+
+/* --- main: background-color + font-size --- */
+main {
+    background-color: #ffffff;
+    font-size: 17px;
+    padding: 36px 52px;
+    max-width: 900px;
+    margin: 28px auto;
+    border-left: 5px solid #f4a828;
+    border-radius: 4px;
+}
+
+/* --- footer: background-color --- */
+footer {
+    background-color: #0b4f3a;
+    color: #c8e6da;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 4px solid #f4a828;
+}
+
+/* --- h1: text-align + font-family + color --- */
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #f4a828;
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+h2 {
+    color: #0b4f3a;
+    border-bottom: 2px solid #c8e6da;
+    padding-bottom: 8px;
+    margin-top: 32px;
+}
+
+h3 {
+    color: #136f50;
+    margin-top: 22px;
+}
+
+/* --- p: line-height --- */
+p {
+    line-height: 1.9;
+    color: #2c4a3e;
+    margin-top: 8px;
+}
+
+/* tagline dưới h1 */
+.tagline {
+    text-align: center;
+    color: #a8d5c0;
+    font-size: 14px;
+    margin-top: 8px;
+    letter-spacing: 0.5px;
+}
+
+/* hộp mẹo du lịch */
+.tip {
+    background-color: #f0f7f4;
+    border-left: 4px solid #f4a828;
+    padding: 12px 16px;
+    margin-top: 14px;
+    font-size: 14px;
+    color: #2c4a3e;
+    border-radius: 0 4px 4px 0;
+}
